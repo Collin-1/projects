@@ -14,7 +14,7 @@ BASE_URL = "https://api.github.com"
 Token = os.getenv("GITHUB_TOKEN")
 
 s = requests.Session()
-s.headers.update({"Authorization": f"token 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"})
+s.headers.update({"Authorization": f"token {Token}"})
 
 def parse_github_datetime(dt_str):
     if not dt_str:
