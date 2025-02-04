@@ -1,0 +1,9 @@
+visitors/
+.vscode/
+visitors.egg-info/
+viv/
+__pycache__/
+.gitignore
+tests/
+*.md
+setup.py
