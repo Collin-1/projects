@@ -1,0 +1,7 @@
+.env
+venv/
+dags.egg-info/
+dags/__pycache__/
+debug_data.py
+smtp_secrets.sh
+logs/
