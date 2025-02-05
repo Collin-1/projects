@@ -19,6 +19,7 @@
   #### Projects
   - https://github.com/Collin-1/projects/tree/main/Collin-Makwala-200-sql-
   - https://github.com/Collin-1/projects/tree/main/Collin-Makwala-256-python-and-mongodb-python
+  - https://github.com/Collin-1/projects/tree/main/Collin-Makwala-261-database-migrations-with-sqlalchemy-python
 
 ### 3. API Development & Integration:
 - REST APIs
@@ -53,7 +54,8 @@
 - DAGs (Directed Acyclic Graphs)
   #### Projects\
   - https://github.com/Collin-1/projects/tree/main/Collin-Makwala-286-create-dags-with-airflow-python
-
+  - https://github.com/Collin-1/projects/tree/main/Collin-Makwala-261-database-migrations-with-sqlalchemy-python
+  
 ### 6. Web Development:
 - HTML
 - CSS
