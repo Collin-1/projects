@@ -1,0 +1,35 @@
+version: "3.3"
+services:
+  postgres1:
+    image: postgres:latest
+    container_name: development
+    environment:
+      - POSTGRES_USER=user1
+      - POSTGRES_PASSWORD=pass1
+      - POSTGRES_DB=development
+    volumes:
+      - ./postgres_data_dev:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+  postgres2:
+    image: postgres:latest
+    container_name: prod
+    environment:
+      - POSTGRES_USER=user2
+      - POSTGRES_PASSWORD=pass2
+      - POSTGRES_DB=prod
+    volumes:
+      - ./postgres_data_prod:/var/lib/postgresql/data
+    ports:
+      - 5433:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+      
+volumes:
+  postgres_data_dev: {}
+  postgres_data_prod: {}
