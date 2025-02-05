@@ -8,7 +8,7 @@ This project is a RESTful API for managing a computer inventory. It is built wit
 
    ```sh
    git clone https://github.com/Collin-1/projects.git
-   cd projects/
+   cd projects/Collin-Makwala-263-create-a-rest-api-to-interact-with-actual-database-python/
 
    ```
 2. Create a virtual environment and activate it:
