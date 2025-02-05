@@ -1,0 +1,7 @@
+__pycache__/
+bank_account.egg-info/
+banking.egg-info/
+vive/
+venv/
+.vscode/
+vivy/
