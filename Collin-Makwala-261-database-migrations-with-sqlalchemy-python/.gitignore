@@ -1,0 +1,5 @@
+migration_venv/
+__pycache__/
+alembic/__pycache__/
+postgres_data_dev/
+postgres_data_prod/
