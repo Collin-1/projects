@@ -1,0 +1,7 @@
+smtp_secrets.sh
+__pycache__/
+venv/
+.vscode/
+Inspirational_quotes.egg-info/
+inspirational_emails.egg-info/
+errors.log

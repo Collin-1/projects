@@ -5,3 +5,4 @@ dags/__pycache__/
 debug_data.py
 smtp_secrets.sh
 logs/
+__pycache__/
